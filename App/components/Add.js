@@ -111,7 +111,8 @@ class Add extends Component {
                     />
                 </View>
                 <Button
-                accent raised icon="add" text="Submit"
+                style={{ container: { height: 50 } }}
+                accent raised text="Submit"
                 disabled={this.state.loading}
                 onPress={()=> this.submit()} onLongPress={()=> this.back()}/>
                 <Snackbar
