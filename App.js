@@ -3,6 +3,7 @@ import { StatusBar } from 'react-native';
 import { Router, Scene } from 'react-native-router-flux';
 import { COLOR, ThemeContext, getTheme } from 'react-native-material-ui';
 
+import Splash from './App/components/Splash';
 import Home from './App/components/Home';
 import Settings from './App/components/Settings';
 import Add from './App/components/Add';
@@ -24,7 +25,8 @@ class App extends Component {
                 <StatusBar backgroundColor={theme.palette.primaryColor} barStyle="light-content" />
                 <Router>
                     <Scene key="root" hideNavBar={true}>
-                        <Scene key="home" component={Home} initial={true}/>
+                        <Scene key="splash" component={Splash} initial={true}/>
+                        <Scene key="home" component={Home}/>
                         <Scene key="settings" component={Settings}/>
                         <Scene key="add" component={Add}/>
                         <Scene key="about" component={About}/>

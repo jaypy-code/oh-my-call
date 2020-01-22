@@ -50,6 +50,7 @@ class Settings extends Component {
             'ready': true
         });
         AsyncStorage.clear();
+        AsyncStorage.setItem('splash', 'OK');
     }
     render() {
         if(this.state.ready == true){
