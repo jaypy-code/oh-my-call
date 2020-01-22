@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import { View, ScrollView, Dimensions, Text, AsyncStorage } from 'react-native';
+import { View, ScrollView, Dimensions, Text } from 'react-native';
 import { ActionButton, ListItem } from 'react-native-material-ui';
 import { Actions } from 'react-native-router-flux';
+import AsyncStorage from '@react-native-community/async-storage';
 import Header from '../includes/Header/Home';
 
 let ScreenHeight = Dimensions.get("window").height;
