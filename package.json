@@ -1,6 +1,6 @@
 {
-  "name": "Call",
-  "version": "0.0.1",
+  "name": "Oh-My-Call",
+  "version": "0.0.1-beta",
   "private": true,
   "scripts": {
     "android": "react-native run-android",

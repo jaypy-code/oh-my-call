@@ -22,7 +22,7 @@ class Header extends Component {
     render() {
         return (
             <Toolbar
-            centerElement="Call"
+            centerElement="Oh My Call"
             rightElement={{
                 menu: {
                     icon: "more-vert",
